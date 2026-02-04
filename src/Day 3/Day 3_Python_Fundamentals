@@ -1,0 +1,49 @@
+# List
+numbers=[10,20,30,40]
+
+#tuple
+coordinates=(5,10)
+
+print(numbers)
+print(coordinates)
+
+ #Positive slicing
+a=[100,200,300,400,500]
+range=a[-3:-1]
+print(range)
+print(a[1:4:2])
+
+# negative slicing
+print(a[-4:-1:2])
+
+marks=[85,72,90]
+marks.append(88)
+print(marks)
+marks.pop()
+print(marks)
+marks.sort()
+print(marks)
+marks.reverse()
+print(marks)
+
+# Task 1
+List=["apple","banana","carrot","date"]
+List.append("egg")
+print(List)
+List.remove("banana")
+print(List)
+List.sort()
+print(List)
+
+# Task 2
+tempratures=[22,24,25,28,30,29,27,26,24,22]
+print(tempratures[0])
+print(tempratures[-1])
+print(tempratures[3:6])
+print(tempratures[-3:])
+
+# Task 3
+screen_res=(1920,1080)
+print("Current Resolution:",screen_res[0],"x",screen_res[1])
+#screen_res[0]=1280
+print("Tuples cannot be modified!")
