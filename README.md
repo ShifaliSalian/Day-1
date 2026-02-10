@@ -1,79 +1,90 @@
+# 📊 Data Science & AI Internship – Python Learning Journey
 
-```markdown
-# Python Fundamentals & Practice Project
-
-This repository documents my Python learning journey during a structured internship/training program.  
-It covers Python basics, data structures, functions, modules, and hands-on assignments organized day-wise.
+This repository documents my **Data Science & Artificial Intelligence Internship**, where I practiced Python fundamentals through **day-wise lessons, hands-on assignments, and real coding tasks**.  
+The goal of this internship is to build a strong programming foundation required for **Data Science, Machine Learning, and AI**.
 
 ---
 
-## 📁 Project Structure
+## 🧑‍💻 Internship Overview
+
+- **Domain:** Data Science & Artificial Intelligence  
+- **Primary Language:** Python  
+- **Tools Used:** VS Code, Anaconda, Git, GitHub  
+- **Learning Style:** Concept → Task → Submission → Reflection  
+
+---
+
+## 📁 Repository Structure
 
 ````
-
 src/
 │
 ├── Day 1/
-│   └── Hello.py
+│ └── Hello.py
 │
 ├── Day 2/
-│   └── Day 2_Python_Fundamentals
+│ └── Day_2_Python_Fundamentals/
 │
 ├── Day 3/
-│   └── Day 3_Python_Fundamentals
+│ └── Day_3_Python_Fundamentals/
 │
 ├── Day 4/
-│   └── Day4_Python_Fundamentals
+│ └── Day_4_Python_Fundamentals/
 │
 ├── Day 5/
-│   └── Day 5_Python_Fundamentals
+│ ├── main.py
+│ ├── main1.py
+│ ├── math_operations.py
+│ └── utils.py
 │
-├── main.py
-├── main1.py
-├── math_operations.py
-└── utils.py
+├── Day 7/
+│ ├── data.csv
+│ ├── data1.xlsx
+│ ├── journal.txt
+│ ├── sample.txt
+│ ├── students.csv
+│ └── text_file_demo.py
+
 
 ````
+---
+
 
 ---
 
-## 📘 Day-wise Learning Overview
+## 🗓️ Day-Wise Internship Details
 
-### Day 1: Welcome & Setup
+---
+
+### ✅ **Day 1: Welcome & Setup**
 **Topics Covered**
 - System Orientation & Tool Awareness  
-- Python Installation & Verification  
+- Python Installation & Version Verification  
 - VS Code & Anaconda Installation  
 - GitHub Account & Repository Setup  
 
 **Assignments Completed**
-- Version Check Challenge  
-- Hello World Plus  
-- The Architect  
-
-Files:
-- `Hello.py`
+- Task 1: The *"Version Check"* Challenge  
+- Task 2: The *Architect*  
+- Task 3: The *"Hello World" Plus*  
 
 ---
 
-### Day 2: Python Fundamentals
+### ✅ **Day 2: Python Fundamentals**
 **Topics Covered**
 - Variables and Data Types  
-- Arithmetic Operations and Operator Precedence  
+- Arithmetic Operations & Operator Precedence  
 - User Input and Basic I/O  
-- Type Casting  
+- Type Casting and Mini Script  
 
 **Assignments Completed**
 - Age in 2030 Calculator  
-- Bill Splitter  
+- Bill Splitter Program  
 - Raw Data Formatter  
-
-Files:
-- `Day 2_Python_Fundamentals`
 
 ---
 
-### Day 3: Lists & Tuples
+### ✅ **Day 3: Lists & Tuples**
 **Topics Covered**
 - Introduction to Lists & Tuples  
 - Indexing & Slicing  
@@ -81,18 +92,15 @@ Files:
 - Tuple Immutability & Use Cases  
 
 **Assignments Completed**
-- Inventory Manager  
-- Data Slicer  
-- Immutable Config  
-
-Files:
-- `Day 3_Python_Fundamentals`
+- Inventory Manager (List Methods)  
+- Data Slicer (Indexing & Slicing)  
+- Immutable Config (Tuples vs Lists)  
 
 ---
 
-### Day 4: Dictionaries & Sets
+### ✅ **Day 4: Dictionaries & Sets**
 **Topics Covered**
-- Dictionaries — Key-Value Pairs  
+- Dictionaries (Key–Value Pairs)  
 - Dictionary Methods & Iteration  
 - Sets & Unique Collections  
 - Set Operations & Membership Testing  
@@ -102,61 +110,80 @@ Files:
 - Duplicate Cleaner  
 - Interest Matcher  
 
-Files:
-- `Day4_Python_Fundamentals`
-
 ---
 
-### Day 5: Functions & Modules
+### ✅ **Day 5: Functions & Modules**
 **Topics Covered**
 - Introduction to Functions  
 - Arguments and Return Values  
 - Variable Scope (Local vs Global)  
 - Importing Standard Modules  
-- Creating and Importing Custom Modules  
+- Creating & Importing Custom Modules  
 
-**Assignments**
+**Assignments Completed**
+- Day 5 Submission  
+- Logic Library using Custom Modules  
+
+---
+
+### ✅ **Day 6: Take Home Tasks**
+**Assignments Completed**
 - Area & Perimeter Tool  
 - Logic Library (Custom Modules)  
 
-Files:
-- `math_operations.py` – utility functions  
-- `main.py` – main execution file  
-- `utils.py` – helper functions  
-- `main1.py` – additional practice  
+---
+
+### ✅ **Day 7: File Handling**
+**Topics Covered**
+- File Reading & Writing  
+- Context Managers using `with open()`  
+- CSV Parsing Basics  
+- Error Handling using `try / except`  
+
+**Assignments Completed**
+- Personal Logger  
+- CSV Student List  
+- Safe File Opener  
 
 ---
 
-## 🧩 Module Description
-
-### math_operations.py
-Contains reusable functions such as:
-- `power(base, exp)`
-- `average(numbers_list)`
-
-### main.py
-Demonstrates:
-- Power calculation (`2^10`)
-- Average calculation of a list  
+### 🚧 **Day 8: NumPy (In Progress)**
+**Topics Covered**
+- Broadcasting & Vectorization Fundamentals  
+- Array Manipulation (Reshape, Stack & Combine)  
+- Statistical Functions in NumPy  
+- Linear Algebra Basics  
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠️ Technologies & Tools
+
 - Python  
-- VS Code  
+- Visual Studio Code  
 - Anaconda  
 - Git & GitHub  
+- NumPy  
 
 ---
 
-## 🎯 Project Purpose
-- Strengthen Python fundamentals  
-- Practice clean code organization  
-- Understand real-world module usage  
+## 🎯 Learning Outcomes
+
+Through this internship, I gained:
+- Strong understanding of Python fundamentals  
+- Hands-on experience with real coding tasks  
+- Better code organization using functions & modules  
+- Practical knowledge of file handling and data processing  
+- Confidence in using GitHub for version control  
 
 ---
 
-## ✨ Author
-**Shifali K Salian**
-```
+## 📌 Author
+
+**Shifali K Salian**  
+_Data Science & AI Intern_
+
+---
+
+⭐ If you find this repository helpful, feel free to **star** it!
+
 
